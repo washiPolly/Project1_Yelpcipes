@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <meta charset="UTF-8">
+        <head>
+        <title>Post Ingredients</title>
+        <link rel='stylesheet' href='style.css'>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        </head>
+
+        <body>
+            <!--Logo/Menu top of page-->
+            <div class="bg-color">
+              <!--Nav Bar-->
+              <nav>
+                <div class="nav-wrapper">
+                  <div clas="img">
+                    <img src="./yelpcipe2.png" alt="">
+                    <ul id="nav-mobile" class="right hide-on-med-and-down">
+                      <div class='menu-drop'>
+                        <ul id="dropdown" class="dropdown-content">
+                          <li><a href="index.html">Home</a></li>
+                          <li><a href="home.html">Yelp</a></li>
+                          <li><a href="recipes.html">Recipes</a></li>
+                          <li class="divider"></li>
+                          <li><a href="favorites.html">Favorites</a></li>
+                        </ul>
+                        <a class="btn dropdown-trigger" href="#!" data-target="dropdown">Menu<i
+                            class="material-icons right">arrow_drop_down</i></a>
+                      </div>
+                    </ul>
+                  </div>
+          
+                </div>
+          
+              </nav>
+<br>
+<br>
+<br>
+<br>
+
+            <!--Sign up input-->
+            <div class="row">
+                <form class="col s12">
+                  <div class="row">
+                    <div class="input-field col s6 firstNameEl">
+                      <input placeholder="First Name" id="first_name" type="text" class="validate">
+                      <label for="first_name"></label>
+                    </div>
+                    <div class="input-field col s6 lastNameEl">
+                      <input placeholder="Last Name" id="last_name" type="text" class="validate">
+                      <label for="last_name"></label>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="input-field col s12 emailEl">
+                      <input placeholder="Email" id="email-signup" type="email" class="validate">
+                      <label for="email"></label>
+                      <span class="helper-text" data-error="wrong" data-success="right"></span>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="input-field col s12 passwordEl">
+                      <input placeholder="Password" id="password-signup" type="password" class="validate">
+                      <label for="password"></label>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="input-field col s12 confPasswordEl">
+                      <input placeholder="Confirm Password" id="confPassword" type="password" class="validate">
+                      <label for="confPassword"></label>
+                    </div>
+                  </div>
+                  </form>
+                  </div>
+                    </form>
+                    
+                    <!--Submit button-->
+                    <a class="waves-effect waves-light btn-large submitButton" href="index.html">Submit</a>
+                    <div id="account-created">
+                      <p id='account'></p>
+                    </div>
+  
+
+                  <script src="localStorage.js"></script>
+                  </body>
+                  </html>

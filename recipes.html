@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link href="https://colorhunt.co/palette/174969" rel="colors">
+  <link type="text/css" rel="stylesheet" href="styles.css">
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Import materialize.css-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <!--Nav Bar-->
+  <div class="bg-color">
+    <!--Nav Bar-->
+    <nav>
+      <div class="nav-wrapper">
+        <div clas="img">
+          <img src="./yelpcipe2.png" alt="">
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <div class='menu-drop'>
+              <ul id="dropdown" class="dropdown-content">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="home.html">Yelp</a></li>
+                <li><a href="recipes.html">Recipes</a></li>
+                <li class="divider"></li>
+                <li><a href="favorites.html">Favorites</a></li>
+              </ul>
+              <a class="btn dropdown-trigger" href="#!" data-target="dropdown">Menu<i
+                  class="material-icons right">arrow_drop_down</i></a>
+            </div>
+          </ul>
+        </div>
+
+      </div>
+
+    </nav>
+    <br>
+    <br>
+
+  <div class="container">
+    <!-- jumbotron of the header/-->
+    <div class="jumbotron col-sm-10 col-md-offset-1">
+      <h1><i class="fa fa-newspaper-o" aria-hidden="true"></i> Find Recipes!</h1>
+    </div>
+
+    <form id="recipe-form">
+      <input type="text" id="keywordSearch" placeholder="Enter Recipes Search here">
+      <button class="waves-effect waves-light btn" id="submitBtn">Submit</button>
+      <br>
+      <br>
+
+      
+      <div id=resultsList>
+      
+                   
+
+    </div>
+
+
+    </form>
+
+    <!--Search with javascript-->
+    
+
+      <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+      <script src="./script.js"></script>
+</body>
+
+</html>
